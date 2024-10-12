@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Pudgy Bunnies",
+    "version": "1.0.0",
+    "description": "Hopping over to @solana - bridging positivity and carrots to you.",
+    "icons": {
+      "48": "icon-48.png"
+    },
+    "background": {
+      "service_worker": "service-worker.js",
+      "type": "module"
+    },
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": ["scripting"],
+    "host_permissions": ["http://*/*", "https://*/*"]
+  }
+  
